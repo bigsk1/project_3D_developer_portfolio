@@ -39,7 +39,7 @@ const services = [
     icon: web,
   },
   {
-    title: "AI Tech Self Hosting",
+    title: "Networking & AI Solutions",
     icon: mobile,
   },
   {
@@ -47,7 +47,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Home Lab",
+    title: "Self Hosting Home Lab",
     icon: creator,
   },
 ];

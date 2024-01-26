@@ -48,7 +48,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I'm a software developer with experience in Python and
-        JavaScript, I enjoy using Docker when possible, working on Homelab projects and providing self hosted solutions.
+        JavaScript, I enjoy using Docker, working on Homelab projects and providing self hosted solutions.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
