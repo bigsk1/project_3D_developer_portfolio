@@ -1,6 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import { SpeedInsights } from "@vercel/speed-insights/next"
-
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { About, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 
 const App = () => {
@@ -10,12 +9,12 @@ const App = () => {
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar />
           <Hero />
+          <SpeedInsights />
         </div>
         <About />
         <Experience />
         <Tech />
         <Works />
-        <SpeedInsights />
         <div className='relative z-0'>
           <StarsCanvas />
         </div>
