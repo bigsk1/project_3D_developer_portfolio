@@ -110,12 +110,12 @@ const technologies = [
 const experiences = [
   {
     title: "Magento Site",
-    company_name: "Owner of business",
+    company_name: "business owner",
     icon: python,
     iconBg: "#383E56",
     date: "March 2016 - Present",
     points: [
-      "Developing and maintaining web applications using CMS, PHP and other related technologies.",
+      "Owned an online store and hard to find good help so started learning and using CMS, PHP and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create my own website.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -125,7 +125,7 @@ const experiences = [
     title: "Homelab Networking",
     company_name: "Start Homelab journey",
     icon: python,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "Jan 2020",
     points: [
       "Developing and maintaining networking for local enviroments.",
@@ -138,7 +138,7 @@ const experiences = [
     title: "Beginning Developer",
     company_name: "Started to learn code",
     icon: python,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "Jan 2021",
     points: [
       "Learned Docker, Docker compose and Podman.",
@@ -151,7 +151,7 @@ const experiences = [
     title: "Web Developer",
     company_name: "Website developement",
     icon: python,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "Jan 2022 - Present",
     points: [
       "Developing and maintaining web applications using React.",

@@ -64,7 +64,7 @@ const Experience = () => {
           Coding / Networking Web experience
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Progression.
+          Progression
         </h2>
       </motion.div>
 
