@@ -15,13 +15,10 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  python,
+  bot,
+  employ,
+  btc,
   threejs,
 } from "../assets";
 
@@ -34,10 +31,6 @@ export const navLinks = [
     id: "work",
     title: "Work",
   },
-  {
-    id: "contact",
-    title: "Contact",
-  },
 ];
 
 const services = [
@@ -46,15 +39,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "AI Tech Self Hosting",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Docker Podman",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Home Lab",
     icon: creator,
   },
 ];
@@ -97,7 +90,7 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
+    name: "Three js",
     icon: threejs,
   },
   {
@@ -116,150 +109,125 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Magento Site",
+    company_name: "Owner of business",
+    icon: python,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2016 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining web applications using CMS, PHP and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create my own website.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Homelab Networking",
+    company_name: "Start Homelab journey",
+    icon: python,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining networking for local enviroments.",
+      "Learning how to setup VLans, Firewalls, Profiles for certain network traffic.",
+      "Creating VM's using proxmox and setting up Linux based headless servers.",
+      "Building Servers from scratch and ensuring up time.",
+    ],
+  },
+  {
+    title: "Beginning Developer",
+    company_name: "Started to learn code",
+    icon: python,
+    iconBg: "#E6DEDD",
+    date: "Jan 2021",
+    points: [
+      "Learned Docker, Docker compose and Podman.",
+      "Learning Nodejs, Flask and React workflows.",
+      "Built my first AI App using python, node and Open-Ai Api's.",
+      "More active in Github, Gitlab and Dockerhub.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "Website developement",
+    icon: python,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining web applications using React.",
+      "Built out Jekyll blog site and post regularly about current projects working on.",
+      "Building and deloying Docker based apps either cloudflare tunnels or web services.",
+      "Creating Ai agents based in python and using different technologies.",
     ],
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "TKS-GPT",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An open source Chat-GPT using Open Ai api. Works with GPT 3.5 turbo and chat history but should also work with Chat GPT 4 you just need the api key for it. Is able to do lists, bullet points, email templates and code blocks",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "open-ai",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: bot,
+    source_code_link: "https://github.com/bigsk1/TKS-GPT",
   },
   {
-    name: "Job IT",
+    name: "Employ",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Employ Rating System is a web and cli application designed to calculate and display the overall rating of businesses based on various data points. Fetches ratings from Yelp, Google Places, and BBB.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "html",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "docker",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: employ,
+    source_code_link: "https://github.com/bigsk1/employ",
   },
   {
-    name: "Trip Guide",
+    name: "Bitcoinlib_RPC",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Use your locally hosted Bitcoin node (like Umbrel) and bitcoinlib in Python to create a wallet and send OP_RETURN message in a Bitcoin transaction). A fun and interesting project",
     tags: [
       {
-        name: "nextjs",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "bitcoin",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "scripts",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: btc,
+    source_code_link: "https://github.com/bigsk1/bitcoinlib_rpc",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
