@@ -23,9 +23,13 @@ import threejs from "./tech/python.png";
 
 import python from "./company/python.png";
 
-import bot from "./bot.png";
-import employ from "./employ.png";
-import btc from "./btc.png";
+// Placeholder imports for new project images
+// You'll need to add actual image files to the assets folder later
+import voiceai from "./voicechatai.webp";
+import supacrawl from "./supacrawl.png";
+import cfxterminal from "./cfx-terminal.png";
+import podcastai from "./podcastai.png";
+import matrixcrypto from "./matrixcrypto.png";
 
 export {
   logo,
@@ -50,7 +54,9 @@ export {
   typescript,
   threejs,
   python,
-  bot,
-  employ,
-  btc,
+  voiceai,
+  supacrawl,
+  cfxterminal,
+  podcastai,
+  matrixcrypto
 };

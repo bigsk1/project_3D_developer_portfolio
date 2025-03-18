@@ -16,10 +16,12 @@ import {
   figma,
   docker,
   python,
-  bot,
-  employ,
-  btc,
   threejs,
+  voiceai,
+  supacrawl,
+  cfxterminal,
+  podcastai,
+  matrixcrypto
 } from "../assets";
 
 export const navLinks = [
@@ -162,41 +164,39 @@ const experiences = [
   },
 ];
 
-
-
 const projects = [
   {
-    name: "TKS-GPT",
+    name: "Voice Chat AI",
     description:
-      "An open source Chat-GPT using Open Ai api. Works with GPT 3.5 turbo and chat history but should also work with Chat GPT 4 you just need the api key for it. Is able to do lists, bullet points, email templates and code blocks",
+      "Speak with AI - Run locally using Ollama, OpenAI or xAI - Speech uses XTTS, OpenAI or ElevenLabs",
     tags: [
       {
         name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "open-ai",
+        name: "ai",
         color: "green-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "speech",
         color: "pink-text-gradient",
       },
     ],
-    image: bot,
-    source_code_link: "https://github.com/bigsk1/TKS-GPT",
+    image: voiceai,
+    source_code_link: "https://github.com/bigsk1/voice-chat-ai",
   },
   {
-    name: "Employ",
+    name: "Supa Crawl Chat",
     description:
-      "Employ Rating System is a web and cli application designed to calculate and display the overall rating of businesses based on various data points. Fetches ratings from Yelp, Google Places, and BBB.",
+      "Integrates Supabase with Crawl4AI and AI Chat to create a powerful web crawling and semantic search solution. Streamlit supabase data visualization. Run all in Docker. API and more!",
     tags: [
       {
-        name: "python",
+        name: "supabase",
         color: "blue-text-gradient",
       },
       {
-        name: "html",
+        name: "streamlit",
         color: "green-text-gradient",
       },
       {
@@ -204,29 +204,71 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: employ,
-    source_code_link: "https://github.com/bigsk1/employ",
+    image: supacrawl,
+    source_code_link: "https://github.com/bigsk1/supa-crawl-chat",
   },
   {
-    name: "Bitcoinlib_RPC",
+    name: "CFX Terminal",
     description:
-      "Use your locally hosted Bitcoin node (like Umbrel) and bitcoinlib in Python to create a wallet and send OP_RETURN message in a Bitcoin transaction). A fun and interesting project",
+      "Web application that combines AI capabilities with Twitter/X functionality to create an advanced social media management tool",
+    tags: [
+      {
+        name: "web",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "social",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cfxterminal,
+    source_code_link: "https://github.com/bigsk1/cfx-terminal",
+  },
+  {
+    name: "Podcast AI",
+    description:
+      "AI podcast summary from a youtube video using Anthropic or XAI and Elevenlabs voices",
     tags: [
       {
         name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "bitcoin",
+        name: "anthropic",
         color: "green-text-gradient",
       },
       {
-        name: "scripts",
+        name: "elevenlabs",
         color: "pink-text-gradient",
       },
     ],
-    image: btc,
-    source_code_link: "https://github.com/bigsk1/bitcoinlib_rpc",
+    image: podcastai,
+    source_code_link: "https://github.com/bigsk1/podcast-ai",
+  },
+  {
+    name: "Matrix Crypto",
+    description:
+      "Matrix Crypto is a terminal application that provides real time prices of cryptocurrency information in a matrix-style animation. Think cmatrix but with crypto!",
+    tags: [
+      {
+        name: "terminal",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "crypto",
+        color: "green-text-gradient",
+      },
+      {
+        name: "python",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: matrixcrypto,
+    source_code_link: "https://github.com/bigsk1/matrix-crypto",
   },
 ];
 
