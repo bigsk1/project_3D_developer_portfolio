@@ -14,7 +14,7 @@ X =  @bigsk1_com
 ---
 
 
-![bigsk1 lofo](./logo.png)
+![Image](https://github.com/user-attachments/assets/b10d9dc6-d01b-4d52-b28d-136ade75b92f)
 
 
 ## Credits for website template
