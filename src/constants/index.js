@@ -163,12 +163,25 @@ const experiences = [
     company_name: "Website developement",
     icon: python,
     iconBg: "#383E56",
-    date: "Jan 2022 - Present",
+    date: "Jan 2022 - Jun 2024",
     points: [
       "Developing and maintaining web applications using React.",
       "Built out Jekyll blog site and post regularly about current projects working on.",
       "Building and deloying Docker based apps either cloudflare tunnels or web services.",
       "Creating Ai agents based in python and using different technologies.",
+    ],
+  },
+  {
+    title: "AI Web Apps",
+    company_name: "Advanced AI Projects",
+    icon: python,
+    iconBg: "#383E56",
+    date: "Jun 2024 - Present",
+    points: [
+      "Developing full-stack AI web applications with modern frontend technologies (React, Tailwind CSS, Vite).",
+      "Creating open-source AI chat and audio projects integrating multiple LLM providers (OpenAI, Anthropic, Ollama).",
+      "Building containerized applications with Docker for scalable and portable deployments.",
+      "Implementing advanced features like speech-to-text, text-to-speech, and vision capabilities in web applications.",
     ],
   },
 ];
