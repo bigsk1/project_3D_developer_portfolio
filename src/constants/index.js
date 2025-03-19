@@ -21,7 +21,8 @@ import {
   supacrawl,
   cfxterminal,
   podcastai,
-  matrixcrypto
+  matrixcrypto,
+  aiscreen
 } from "../assets";
 
 export const navLinks = [
@@ -32,6 +33,14 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "website",
+    title: "Website",
   },
 ];
 
@@ -269,6 +278,27 @@ const projects = [
     ],
     image: matrixcrypto,
     source_code_link: "https://github.com/bigsk1/matrix-crypto",
+  },
+  {
+    name: "AI Screen Analyzer",
+    description:
+      "AI Screen Analyzer allows users to capture screenshots, analyze them using various AI providers and models, and engage in conversations about the images.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vision",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: aiscreen,
+    source_code_link: "https://github.com/bigsk1/ai-screen-analyzer",
   },
 ];
 

@@ -30,6 +30,8 @@ import supacrawl from "./supacrawl.png";
 import cfxterminal from "./cfx-terminal.png";
 import podcastai from "./podcastai.png";
 import matrixcrypto from "./matrixcrypto.png";
+import aiscreen from "./aiscreen.png";
+import bigsk1 from "./bigsk1.png";
 
 export {
   logo,
@@ -58,5 +60,7 @@ export {
   supacrawl,
   cfxterminal,
   podcastai,
-  matrixcrypto
+  matrixcrypto,
+  aiscreen,
+  bigsk1
 };

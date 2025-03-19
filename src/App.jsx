@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import { SpeedInsights } from '@vercel/speed-insights/react';
-import { About, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import { About, Experience, Hero, Navbar, Tech, Works, Website, StarsCanvas } from "./components";
 
 const App = () => {
   return (
@@ -15,6 +15,7 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
+        <Website />
         <div className='relative z-0'>
           <StarsCanvas />
         </div>
